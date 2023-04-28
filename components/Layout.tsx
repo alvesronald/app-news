@@ -1,3 +1,5 @@
+import { useRouter } from "next/router";
+import ArrowLeft from "./icon/ArrowLeft";
 
 
 interface LayoutProps{
@@ -6,9 +8,24 @@ interface LayoutProps{
 }
 
 export const Layout = ({ children, title }: LayoutProps) => {
+
+    const route = useRouter();
+
+    const currentRouteIsHome = route.asPath !== '/'
+
+    const navigateToHome = () => {
+        route.push('/')
+    }
+
     return(
         <div className="h-full min-h-screen relative">
             <div className="w-full h-72 bg-black rounded-b-[6.25rem] pt-11 px-32 flex justify-center  items-center text-center text-white">
+                {currentRouteIsHome ? (
+                    <div onClick={navigateToHome} className="absolute left-16 top-16 cursor-pointer">
+                        <ArrowLeft className="text-5xl" />
+                    </div>
+                ) : null}
+               
                 <h1 className="text-white text-4xl w-8/12">{title}</h1>
             </div>
 
