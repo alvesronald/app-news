@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Layout } from '../components/Layout'
 
 export default function Home() {
   return (
@@ -11,8 +11,52 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+      <h1>News</h1>
+   
      
     </div>
   )
+}
+
+Home.getLayout = function getLayout(page){
+  return <Layout title='News'>{page}</Layout>
 }
