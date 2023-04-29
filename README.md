@@ -3,7 +3,7 @@ App News
 </h1>
 
 <p align="center">
-  <a href="https://app-news-alvesronald.vercel.app/">View Demo - Deploy in Vercel</a>
+  <a href="https://app-news-alvesronald.vercel.app/" target="_blank">View Demo - Deploy on vercel</a>
 </p>
 
 https://user-images.githubusercontent.com/92890340/235323070-84c3ba05-747e-4225-bf53-6c1ac742b067.mp4
