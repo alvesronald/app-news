@@ -2,11 +2,7 @@
 App News
 </h1>
 
-
-
-https://user-images.githubusercontent.com/92890340/235322992-d089e631-17ab-47b5-85c1-ab36226bff47.mp4
-
-
+https://user-images.githubusercontent.com/92890340/235323070-84c3ba05-747e-4225-bf53-6c1ac742b067.mp4
 
 ## Participants
 
