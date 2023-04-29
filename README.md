@@ -22,7 +22,6 @@ https://user-images.githubusercontent.com/92890340/235323070-84c3ba05-747e-4225-
 - [NextJs](https://nextjs.org/)
 - [Contentful](https://www.contentful.com/)
 - [Vercel](https://vercel.com/)
-- [AWS](https://aws.amazon.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Tailwind](https://tailwindcss.com/)
 
