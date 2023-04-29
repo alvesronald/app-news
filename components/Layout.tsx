@@ -26,7 +26,7 @@ export const Layout = ({ children, title }: LayoutProps) => {
                     </div>
                 ) : null}
                
-                <h1 className="text-white text-4xl w-8/12">{title}</h1>
+                <h1 className="text-white text-xl">{title}</h1>                
             </div>
 
             {children}

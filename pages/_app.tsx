@@ -1,4 +1,3 @@
-import { Layout } from '../components/Layout'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -9,7 +8,7 @@ function MyApp({ Component, pageProps }) {
 
 
 
-  // A abordagem abaixo é recomendada quando nosso layout é igual para todas as telas.
+  // recommended when the layout is the same for all pages
 
   // return (
   //   <Layout>
